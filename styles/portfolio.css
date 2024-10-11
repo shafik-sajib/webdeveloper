@@ -69,6 +69,9 @@ nav a{
     margin-top: 5px;
 }
 /* main section styles */
+main section{
+    margin-top: 80px;
+}
 .para1, .para2{
     border: solid #fb8b24;
     padding: 10px;
@@ -77,6 +80,10 @@ nav a{
     text-align: center;
     background-color: #acc5d7;
     width: 300px;
+}
+.para2{
+    background-color: #e36414;
+    border: solid black;
 }
 .journerfull{
     display: flex;
@@ -95,4 +102,97 @@ nav a{
 .section-title{
     text-align: center;
     font-size: 30px;
+}
+/* about section styles */
+.about{
+    padding: 10px 100px;
+    border-radius: 10px;
+    background-color: #acc5d7;
+    margin: 0 auto;
+    width: 600px;
+    height: 300px;
+    margin-top: o;
+}
+.sec-title{
+    color: #0f4c5c;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    font-weight: 600;
+    margin-top: 0%;
+}
+.tmiami{
+    text-align: center;
+    padding: 0 250px;
+} 
+.skills-container{
+    display: flex; 
+    gap: 5px;
+}
+.skill{
+    padding: 10px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 100px;
+    background-color: white;
+    box-shadow: 0px 6px 50px 0px rgb(0, 0, 0, 0.06);
+}
+.skill-description{
+    color: darkgrey;
+}
+/* resume section styles */
+.resume-colum-title{
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-container{
+    display: flex;
+    gap: 60px;
+    padding: 0 250px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: #cddafd ;
+    box-shadow: 0px 6px 50px 0px rgb(0, 0, 0, 0.06);
+
+}
+.resume-item-info{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.resume-item-info, .resume-item-description{
+    color: #474747;
+}
+.resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-container hr{
+    margin: 20px;
+}
+.download{
+    text-align: center;
+    margin-top: 20px;
+}
+.btn1{
+    border-radius: 5px;
+    background-color: #e36414;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 14px 20px;
 }
