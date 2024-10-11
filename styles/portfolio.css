@@ -68,3 +68,31 @@ nav a{
 .des{
     margin-top: 5px;
 }
+/* main section styles */
+.para1, .para2{
+    border: solid #fb8b24;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #acc5d7;
+    width: 300px;
+}
+.journerfull{
+    display: flex;
+    gap: 40px;
+    padding: 30px 100px 100px 200px;
+}
+.para{
+    border: solid #fb8b24;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-align: center; 
+    background-color: #acc5d7;
+    width: 300px;
+}
+.section-title{
+    text-align: center;
+    font-size: 30px;
+}
