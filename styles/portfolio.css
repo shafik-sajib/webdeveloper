@@ -196,3 +196,28 @@ main section{
     font-weight: 700;
     padding: 14px 20px;
 }
+footer{
+    display: flex;
+    background-color: #eae2b7;
+    padding: 130px 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 70px;
+    gap: 100px;
+    text-align: center;
+}
+.footer-colum{
+    width: 50%;
+}
+.Contact input[type="text"], input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #474747;
+    background-color: white;
+    border: 0;
+    width: 100%;
+}
+.sub1{
+
+}
